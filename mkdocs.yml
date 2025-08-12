@@ -1,0 +1,22 @@
+site_name: api_groceries_mvc Docs
+site_url: https://example.com
+repo_url: https://example.com/your/repo
+
+nav:
+  - Overview: index.md
+  - API:
+      - Index: api/index.md
+  - Guides:
+      - Getting Started: guides/getting-started.md
+      - Usage Examples: guides/usage-examples.md
+  - Contributing:
+      - Writing Docs: contributing/writing-docs.md
+
+docs_dir: docs
+theme:
+  name: mkdocs
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
